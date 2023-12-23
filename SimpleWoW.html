@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Warcraft Fan Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
+
+        main h3 {
+            grid-column: span 2;
+        }
+
+        footer {
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .social-icons {
+            display: flex;
+			margin: 0 10px;
+            align-items: center;
+        }
+
+        .social-icons a img {
+			vertical-align: top;
+            color: white;
+			margin: 0 10px;
+			width: 30px;
+			height: 30px;
+        }
+		
+		.special_ul li img {
+			vertical-align: middle;
+			margin: 10px;
+			width: 100px;
+			height: 100px;
+		}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>World of Warcraft Fan Site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Races</a>
+            <a href="#">Classes</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <h3>Popular Races</h3>
+            <ul class="special_ul">
+                <li>Humans <img src="img/human.jpg" alt="Human"></li>
+                <li>Orcs <img src="img/orc.jpg" alt="Orc"></li>
+                <li>Elves <img src="img/elf.jpg" alt="Elf"></li>
+                <li>Undead <img src="img/undead.jpg" alt="Undead"></li>
+            </ul>
+        </div>
+		
+		<section>
+			<h2>Choosing Your Race</h2>
+			<p>World of Warcraft offers a variety of races, each with its own unique characteristics and lore. Choose your race wisely as it will impact your gameplay experience.</p>
+			<ul>
+				<li><strong>Humans:</strong> Versatile and adaptable.</li>
+				<li><strong>Orcs:</strong> Strong and resilient warriors.</li>
+				<li><strong>Elves:</strong> Graceful and agile, with a connection to nature.</li>
+				<li><strong>Undead:</strong> Cunning and resistant to necromantic magic.</li>
+				<!-- Add more races as needed -->
+			</ul>
+		</section>
+		
+		<div>
+
+		</div>
+
+        <div>
+            <h3>Classes</h3>
+            <ul class="special_ul">
+                <li>Warrior <img src="img/warrior.jpg" alt="Warrior"></li>
+                <li>Mage <img src="img/mage.jpg" alt="Mage"></li>
+                <li>Rogue <img src="img/rogue.jpg" alt="Rogue"></li>
+                <li>Priest <img src="img/priest.jpg" alt="Priest"></li>
+            </ul>
+        </div>
+
+        <section>
+            <h2>Picking Your Class</h2>
+            <p>Each class in World of Warcraft comes with its own unique abilities and playstyles. Consider your preferred playstyle when choosing a class.</p>
+            <ul>
+                <li><strong>Warrior:</strong> Master of melee combat.</li>
+                <li><strong>Mage:</strong> Harnesses the power of arcane magic.</li>
+                <li><strong>Rogue:</strong> Stealthy and deadly.</li>
+                <li><strong>Priest:</strong> Healer or damage dealer with holy magic.</li>
+                <!-- Add more classes as needed -->
+            </ul>
+        </section>
+		
+		<div>
+
+		</div>
+		<div>
+
+		</div>
+
+        <section>
+            <h2>Race and Class Combinations</h2>
+            <p>Certain races have racial abilities that complement specific classes. Here are some popular combinations:</p>
+            <ul>
+                <li><strong>Human Warrior:</strong> Adaptable in both PvE and PvP.</li>
+                <li><strong>Orc Warlock:</strong> Powerful combination for damage dealing.</li>
+                <li><strong>Night Elf Hunter:</strong> Stealthy and attuned to nature.</li>
+                <li><strong>Undead Priest:</strong> Resistant to fear effects, ideal for healing.</li>
+                <!-- Add more combinations as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h4>Useful Links</h4>
+            <ul>
+                <li><a href="https://worldofwarcraft.com/" target="_blank">Official WoW Site</a></li>
+                <li><a href="https://us.shop.battle.net/en-us/family/world-of-warcraft" target="_blank">WoW Shop</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Contact Us</h4>
+            <address>
+                Email: <a href="mailto:info@wowfansite.com">info@wowfansite.com</a><br>
+                Phone: +1 (555) 123-4567
+            </address>
+        </div>
+
+        <div>
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#" target="_blank" width="50px"><i class="fab fa-facebook"><img src="img/fb.jpg" alt="facebook widget"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"><img src="img/yoube.jpg" alt="youtube widget"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"><img src="img/in.jpg" alt="instagram widget"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
